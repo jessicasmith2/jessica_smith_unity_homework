@@ -15,7 +15,7 @@ public class testScript4 : MonoBehaviour { //creates a public method for the par
         print(collision.collider.name); //gets the name of the colliding object
         if(collision.collider.name != "Terrain") //sets a conditional statement for if it collides with terrain
         {
-            life -= collision.collider.GetComponent<damageValue>().getDamage(); //retrieves and applies the amount of damage from the colliding object (50) to the cylinder
+            //life -= collision.collider.GetComponent<damageValue>().getDamage(); //retrieves and applies the amount of damage from the colliding object (50) to the cylinder
         }
         if(life < 0) //sets a conditional statement for if the object's life variable reaches zero or less
         {
